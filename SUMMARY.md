@@ -10,4 +10,6 @@
   * [Терминология](chapter1/terminologiya.md)
   * [Тестирование](chapter1/testirovanie.md)
   * [Ссылки](chapter1/ssilki.md)
+* [Cookbook](cookbook.md)
+  * [Magento](cookbook/magento.md)
 
