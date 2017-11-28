@@ -1,12 +1,12 @@
 # Тестирование
 
-## Интеграционные тесты
+## [Интеграционные тесты](http://devdocs.magento.com/guides/v2.0/test/integration/integration_test_execution.html)
 
 ### The TESTS\_CLEANUP Constant
 
 Значение по умолчанию
 
-```
+```xml
 <const name="TESTS_CLEANUP" value="enabled"/>
 ```
 
