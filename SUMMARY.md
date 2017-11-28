@@ -12,4 +12,5 @@
   * [Ссылки](chapter1/ssilki.md)
 * [Cookbook](cookbook.md)
   * [Magento](cookbook/magento.md)
+  * [Тестирование](cookbook/testirovanie.md)
 
