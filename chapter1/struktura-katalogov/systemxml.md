@@ -1,4 +1,4 @@
-system.xml конфигурационный файл - используется для создания элементов на странице конфигурации Store -&gt; Settings -&gt; Configuration
+[system.xml](http://www.mageplaza.com/magento-2-module-development/create-system-xml-configuration-magento-2.html) конфигурационный файл использумый для создания элементов на странице конфигурации Store -&gt; Settings -&gt; Configuration
 
 Сама страница конифгурации разделена на несколько логических частей:
 
