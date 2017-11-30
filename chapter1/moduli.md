@@ -16,5 +16,21 @@ bin/magento setup:upgrade
 
 
 
+## Операции с модулем
+
+Отключение модуля:
+
+```bash
+bin/magento module:disable <moduleName>
+```
+
+Включение модуля:
+
+```
+bin/magento module:enable <moduleName>
+```
+
+
+
 
 
