@@ -5,6 +5,7 @@
   * [Архитектура](chapter1/arhitektura.md)
   * [Структура каталогов](chapter1/struktura-katalogov.md)
     * [system.xml](chapter1/struktura-katalogov/systemxml.md)
+    * [acl.xml](chapter1/struktura-katalogov/aclxml.md)
   * [UI компоненты](chapter1/ui-komponenti.md)
   * [Модули](chapter1/moduli.md)
     * [Доставка](chapter1/moduli/quote.md)
