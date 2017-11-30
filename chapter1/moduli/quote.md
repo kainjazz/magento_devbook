@@ -17,6 +17,8 @@
 
 ### Методы доставки
 
+####Модуль Magento\_Quote
+
 Маршруты для получения методов доставки относятся к модулю Magento\_Quote и определены в файле  
 _Magento/Quote/etc/webapi.xml_, в котором осуществляется привязка метода к интерфейсу
 
@@ -29,7 +31,7 @@ _Magento/Quote/etc/webapi.xml_, в котором осуществляется �
     </route>
 ```
 
-Для получения методов доставки используются 4 интерфейса:
+Для получения методов доставки используются интерфейсы:
 
 | интерфейс | реализация | url запроса | метод | тип запроса |
 | :--- | :--- | :--- | :--- | :--- |
@@ -41,6 +43,10 @@ _Magento/Quote/etc/webapi.xml_, в котором осуществляется �
 |  |  | /V1/carts/mine/estimate-shipping-methods | estimateByExtendedAddress | POST |
 | Magento\Quote\Api\GuestShippingMethodManagementInterface | Magento\Quote\Model\GuestCart\GuestShippingMethodManagement | /V1/guest-carts/:cartId/shipping-methods | getList | GET |
 | Magento\Quote\Api\GuestShipmentEstimationInterface | Magento\Quote\Model\GuestCart\GuestShippingMethodManagement | /V1/guest-carts/:cartId/estimate-shipping-methods | estimateByExtendedAddress | POST |
+
+
+####Модуль Magento\_Checkout
+
 
 ## Подмена реализации API
 
