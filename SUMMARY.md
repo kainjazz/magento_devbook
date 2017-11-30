@@ -13,5 +13,4 @@
 * [Cookbook](cookbook.md)
   * [Magento](cookbook/magento.md)
   * [Тестирование](cookbook/testirovanie.md)
-* [Тестирование](testirovanie.md)
 
