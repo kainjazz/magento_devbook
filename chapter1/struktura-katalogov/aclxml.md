@@ -1,5 +1,7 @@
 [acl.xml](https://www.magestore.com/magento-2-tutorial/3194-2/) файл определения acl ролей.
 
+Узел acl
+
 ```xml
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
     <acl>
@@ -19,4 +21,6 @@
     </acl>
 </config>
 ```
-Узел acl 
+
+Элемент acl содержит дочерний элемент resources с вложенными элементами resource
+
