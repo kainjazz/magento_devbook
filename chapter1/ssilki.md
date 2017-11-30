@@ -7,7 +7,6 @@
 [The di.xml file](http://devdocs.magento.com/guides/v2.1/extension-dev-guide/build/di-xml-file.html)
 
 ## Сторонние ресурсы
-[Magento 2 tutorial](https://www.magestore.com/magento-2-tutorial/)
 [UI Grid - создание ui component'а](https://habrahabr.ru/post/315182/)  
 [DI плагины в Magento 2](https://habrahabr.ru/post/279413/)  
 [magento2 samples](https://github.com/magento/magento2-samples)  
