@@ -42,7 +42,7 @@ _Magento/Quote/etc/webapi.xml_, в котором осуществляется �
 | Magento\Quote\Api\ShipmentEstimationInterface | Magento\Quote\Model\ShippingMethodManagement | /V1/carts/:cartId/estimate-shipping-methods | estimateByExtendedAddress | POST |
 |  |  | /V1/carts/mine/estimate-shipping-methods | estimateByExtendedAddress | POST |
 | Magento\Quote\Api\GuestShippingMethodManagementInterface | Magento\Quote\Model\GuestCart\GuestShippingMethodManagement | /V1/guest-carts/:cartId/shipping-methods | getList | GET |
-| Magento\Quote\Api\GuestShipmentEstimationInterface | Magento\Checkout\Model\GuestShippingInformationManagement | /V1/guest-carts/:cartId/shipping-information | estimateByExtendedAddress | POST |
+| Magento\Quote\Api\GuestShipmentEstimationInterface | Magento\Checkout\Model\GuestShippingInformationManagement | /V1/guest-carts/:cartId/estimate-shipping-methods | estimateByExtendedAddress | POST |
 
 #### Модуль Magento\_Checkout
 
@@ -51,7 +51,7 @@ _Magento/Quote/etc/webapi.xml_, в котором осуществляется �
 
 | интерфейс | реализация | url запроса | метод | тип запроса |
 | :--- | :--- | :--- | :--- | :--- |
-| Magento\Checkout\Api\GuestShippingInformationManagementInterface | Magento\Quote\Model\ShippingMethodManagement | /V1/carts/:cartId/shipping-methods | saveAddressInformation | GET |
+| Magento\Checkout\Api\GuestShippingInformationManagementInterface | Magento\Checkout\Model\GuestShippingInformationManagement | /V1/guest-carts/:cartId/shipping-information | saveAddressInformation | POST |
 
 ## Подмена реализации API
 
