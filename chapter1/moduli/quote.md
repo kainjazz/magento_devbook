@@ -17,7 +17,7 @@
 
 ### Методы доставки
 
-####Модуль Magento\_Quote
+#### Модуль Magento\_Quote
 
 Маршруты для получения методов доставки относятся к модулю Magento\_Quote и определены в файле  
 _Magento/Quote/etc/webapi.xml_, в котором осуществляется привязка метода к интерфейсу
@@ -44,17 +44,14 @@ _Magento/Quote/etc/webapi.xml_, в котором осуществляется �
 | Magento\Quote\Api\GuestShippingMethodManagementInterface | Magento\Quote\Model\GuestCart\GuestShippingMethodManagement | /V1/guest-carts/:cartId/shipping-methods | getList | GET |
 | Magento\Quote\Api\GuestShipmentEstimationInterface | Magento\Checkout\Model\GuestShippingInformationManagement | /V1/guest-carts/:cartId/shipping-information | estimateByExtendedAddress | POST |
 
+#### Модуль Magento\_Checkout
 
-####Модуль Magento\_Checkout
-Файл с маршрутами Magento/Checkout/etc/webapi.xml
+Файл с маршрутами Magento/Checkout/etc/webapi.xml  
 Интерфейсы:
 
 | интерфейс | реализация | url запроса | метод | тип запроса |
 | :--- | :--- | :--- | :--- | :--- |
 | Magento\Checkout\Api\GuestShippingInformationManagementInterface | Magento\Quote\Model\ShippingMethodManagement | /V1/carts/:cartId/shipping-methods | saveAddressInformation | GET |
-
-
-
 
 ## Подмена реализации API
 
@@ -95,7 +92,7 @@ bin/magento setup:di:compile
 
 _module.xml_ зависимости от Magento\_Store, Magento\_Catalog, Magento\_Ui, Magento\_User  
 _config.xml_ по-умолчанию настроено расположение магазина  
-_acl.xml_   
+_acl.xml_  
 _crontab.xml_ Magento\Shipping\Model\Observer::aggregateSalesReportShipmentData в 00:00  
 _di.xml_ прописаны зависимости для
 
@@ -103,8 +100,10 @@ _di.xml_ прописаны зависимости для
 * Magento\Shipping\Model\CarrierFactory
 * Magento\Shipping\Model\Carrier\Source\GenericDefault
 
+
+
 ### etc/adminhtml
 
-_routes.xml_   
+_routes.xml_  
 _page\_types.xml_
 
