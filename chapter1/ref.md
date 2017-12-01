@@ -15,3 +15,7 @@
 [Доработка шагов оформления заказа](http://devdocs.magento.com/guides/v2.2/howdoi/checkout/checkout_customize.html)
 [Создание файла system.xml](http://www.mageplaza.com/magento-2-module-development/create-system-xml-configuration-magento-2.html)
 
+
+## Доставка
+[Динамическое изменение стоимости доставки](http://www.blog.magepsycho.com/change-shipping-price-handling-fee-fly-magento/)
+[Создание пользовательского модуля доставки](http://www.blog.magepsycho.com/create-custom-shipping-module-in-magento-2/)
