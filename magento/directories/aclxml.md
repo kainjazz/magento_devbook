@@ -1,4 +1,4 @@
-[acl.xml](https://www.magestore.com/magento-2-tutorial/3194-2/) файл определения acl ролей.
+[acl.xml](https://www.magestore.com/magento-2-tutorial/3194-2) файл определения acl ролей.
 
 Узел acl
 

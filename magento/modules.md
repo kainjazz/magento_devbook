@@ -1,6 +1,6 @@
 # Модули
 
-## [Создание нового модуля](http://devdocs.magento.com/videos/fundamentals/create-a-new-module/)
+## [Создание нового модуля](http://devdocs.magento.com/videos/fundamentals/create-a-new-module)
 
 Создать каталог модуля - app/code/&lt;Vendor&gt;/&lt;moduleName&gt;
 
