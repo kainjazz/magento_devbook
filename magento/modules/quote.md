@@ -63,14 +63,14 @@ _Magento/Quote/etc/di.xml_
 ```
 
 Для подключения другой реализации нужно в своем модуле прописать нужные зависимости  
-Так, для получения списка методов доставки создаем файл _DIY/Shipping/etc/di.xml_
+Так, для получения списка методов доставки создаем файл _<Vendor>/Shipping/etc/di.xml_
 
 ```xml
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <preference for="Magento\Quote\Api\GuestShippingMethodManagementInterface" type="DIY\Shipping\Model\GuestCart\GuestShippingMethodManagement" />
-    <preference for="Magento\Quote\Api\GuestShipmentEstimationInterface" type="DIY\Shipping\Model\GuestCart\GuestShippingMethodManagement" />
-    <preference for="Magento\Quote\Model\GuestCart\GuestShippingMethodManagementInterface" type="DIY\Shipping\Model\GuestCart\GuestShippingMethodManagement" />
+    <preference for="Magento\Quote\Api\GuestShippingMethodManagementInterface" type="<Vendor>\Shipping\Model\GuestCart\GuestShippingMethodManagement" />
+    <preference for="Magento\Quote\Api\GuestShipmentEstimationInterface" type="<Vendor>\Shipping\Model\GuestCart\GuestShippingMethodManagement" />
+    <preference for="Magento\Quote\Model\GuestCart\GuestShippingMethodManagementInterface" type="<Vendor>\Shipping\Model\GuestCart\GuestShippingMethodManagement" />
 </config>
 ```
 
@@ -80,7 +80,7 @@ _Magento/Quote/etc/di.xml_
 bin/magento setup:di:compile
 ```
 
-Теперь при обращении к api с прописанными интерфейсами будет вызываться класс модуля DIY\_Shipping
+Теперь при обращении к api с прописанными интерфейсами будет вызываться класс модуля <Vendor>\_Shipping
 
 ## Модуль Magento\_Shipping
 
