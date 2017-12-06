@@ -7,6 +7,7 @@
     * [system.xml](magento/directories/systemxml.md)
     * [acl.xml](magento/directories/aclxml.md)
   * [UI компоненты](magento/ui-components.md)
+  * [Web API](magento/webapi.md)
   * [Модули](magento/modules.md)
     * [Доставка](magento/modules/quote.md)
   * [Терминология](magento/term.md)
