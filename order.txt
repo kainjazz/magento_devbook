@@ -1,0 +1,90 @@
+Получить токен
+Для оформления заказа через API.
+1. POST /rest/V1/guest-carts/
+    Получаем ответ в виде кода корзины прим. "0100675e8f181370e1dae8e8a5b71c40"
+2. POST /rest/V1/guest-carts/" код корзины "/items
+    пример тела запроса: {
+                "cartItem": {
+                    "sku": "136978",
+                    "qty": 1,
+                    "quoteId": cart}
+            }
+3. POST /rest/V1/guest-carts/" код корзины "/billing-address
+    пример тела зпроса: {
+                "address": {
+                    "city": "noida",
+                    "company": "iprag",
+                    "countryId": "RU",
+                    "email": "manish+2@gmail.com",
+                    "firstname": "Manish",
+                    "lastname": "Kumar",
+                    "postcode": "201301",
+                    "region": "UP",
+                    "saveInAddressBook": 1,
+                    "street": ["D-84"],
+                    "telephone": "8802xxxx90"
+                },
+                "useForShipping": true
+            }
+4. POST /rest/V1/guest-carts/" код корзины "/shipping-information"
+    пример тела запроса: {
+                "addressInformation": {
+                    "shipping_address": {
+                        "countryId": "RU",
+                        "region": "",
+                        "street": [
+                            "sadsd"
+                        ],
+                        "company": "",
+                        "telephone": "789456123",
+                        "postcode": 0,
+                        "city": "asds",
+                        "firstname": "sadas",
+                        "lastname": "dasd"
+                    },
+                    "billing_address": {
+                        "countryId": "RU",
+                        "region": "",
+                        "street": [
+                            "sadsd"
+                        ],
+                        "company": "",
+                        "telephone": "789456123",
+                        "postcode": 0,
+                        "city": "asds",
+                        "firstname": "sadas",
+                        "lastname": "dasd",
+                        "saveInAddressBook": 0
+                    },
+                    "shipping_method_code": "flatrate",
+                    "shipping_carrier_code": "flatrate"
+                }
+            }
+5. POST /rest/V1/guest-carts/" код корзины "/payment-information
+    пример тела запроса: {
+                    "cartId": код корзины ,
+                    "billingAddress": {
+                        "countryId": "RU",
+                        "region": "",
+                        "street": [
+                            "daasd"
+                        ],
+                        "company": "asd",
+                        "telephone": "789456123",
+                        "postcode": 0,
+                        "city": "asd",
+                        "firstname": "as",
+                        "lastname": "as",
+                        "saveInAddressBook": 0
+                    },
+                    "paymentMethod": {
+                        "method": "card",
+                        "po_number": 0,
+                        "additional_data": 0
+                    },
+                    "email": "alex@fsdfs.ry"
+                }
+                headers = {
+                    'Content-Type': "application/json",
+                    'Authorization': token,
+                }
